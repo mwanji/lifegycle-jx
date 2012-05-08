@@ -1,8 +1,8 @@
-Lifegycle adds nifty lifecycle management to Guice. Learn more about it here: http://99soft.github.com/lifegycle/index.html
+Lifegycle adds nifty lifecycle management to Guice. Learn more about Lifegycle here: http://99soft.github.com/lifegycle/index.html
 
-Lifegycle-JX provides a utility class to use the standard @PostConstruct and @PreDestroy lifecycle annotations rather than Lifegycle's custom ones.
+Lifegycle-JX provides a utility class to use the standard @PostConstruct and @PreDestroy annotations rather than Lifegycle's custom ones.
 
-Use the static methods on LifegycleJxModules to add the AfterInjectionModule and DisposeModule. For example:
+The static methods on LifegycleJxModules provide configured instances of AfterInjectionModule and DisposeModule. For example:
 
 Guice.createInjector(LifegycleJxModules.afterInjectionModule());
 
