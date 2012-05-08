@@ -9,3 +9,5 @@ Guice.createInjector(LifegycleJxModules.afterInjectionModule());
 Both modules can be added simultaneously, along with static imports:
 
 Guice.createInjector(afterInjectionModule(), disposeModule());
+
+Lifegycle-jx is licensed under the Apache v2 License.
