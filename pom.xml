@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.moandjiezana.lifegycle</groupId>
   <artifactId>lifegycle-jx</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.1</version>
   <name>Lifegycle-JX</name>
   <description>A Lifegycle extension that configures the standard @PostConstruct and @PreDestroy annotations.</description>
 
